@@ -1,9 +1,10 @@
- ![](https://img.shields.io/badge/Python-3.9.4-blue)
+ ![](https://img.shields.io/badge/Python-3.10-yellow)
  ------------
 ```
 in-picuki ( Instagram Picuki) scrapper. See official website in main source 
 Note : use WiFi If you find a lot of posts :)
 This very simple to save images & videos from any Instagram user
 ```
-
-###### report / support -> https://t.me/aditia_dtz
+###### tested :
+![](https://i.ibb.co/qdTW79m/20220424-060300.png)
+###### report / support -> https://github.com/aditia-dgzr/in-picuki/issues
