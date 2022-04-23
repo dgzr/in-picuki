@@ -6,5 +6,5 @@ Note : use WiFi If you find a lot of posts :)
 This very simple to save images & videos from any Instagram user
 ```
 ###### tested :
-![](https://i.ibb.co/qdTW79m/20220424-060300.png)
+![](https://i.ibb.co/Y3HyP8f/20220424-060300.png)
 ###### report / support -> https://github.com/aditia-dgzr/in-picuki/issues
