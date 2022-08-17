@@ -64,7 +64,6 @@ class Picuki(object):
 			return False
 
 	def getMediaId(self, page):
-#		print(f"\r  • {self.count} media retrevied", end="")
 		if isinstance(page, str):
 			if (mid := re.findall(r"<a\s+href\=\"http[s]:\/\/www\.picuki\.com\/media\/([\d+].*?)\"",page)):
 				self.getMedia(mid)
@@ -96,7 +95,6 @@ class Picuki(object):
 			except PermissionError:
 				print("  • ! please give me permission!")
 				continue
-#		print(url)
 		contents = requests.get(url, stream=True)
 		if "Content-Disposition" in contents.headers:
 			if (fname := re.search(r"(?<=filename\=\")([^>].*?)(?=\";)",contents.headers['Content-Disposition'])):
@@ -209,10 +207,9 @@ class Main(Picuki):
 						if dThumb == "y":
 							self.thumbnail = True
 						self.getMediaId(page)
-#						self.getMedia()
 						print(f"  • {self.dImg} image, {self.dVid} video, {self.dThum} thumbnail!")
 					else:
-						print('line 185')
+						pass
 				else:
 					pass
 			else:
