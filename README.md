@@ -8,3 +8,4 @@ This very simple to save images & videos from any Instagram user
 ###### report / support -> https://github.com/dgzr/in-picuki/issues
 
 
+move -> https://github.com/motebaya/Picuki
